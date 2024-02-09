@@ -7,6 +7,7 @@
     <title>Home</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <span>Hello World!</span>
+    <span>{{ $question }}</span>
 </body>
 </html>

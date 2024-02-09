@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $question = 'How are you?';
+    return view('home', compact('question'));
 });
