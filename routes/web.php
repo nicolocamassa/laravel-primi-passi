@@ -17,3 +17,19 @@ Route::get('/', function () {
     $question = 'How are you?';
     return view('home', compact('question'));
 });
+
+Route::get('/service', function () {
+    return view('service');
+});
+
+Route::get('/history', function () {
+    return view('history');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
